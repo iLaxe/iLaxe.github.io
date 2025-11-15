@@ -21,7 +21,8 @@ I am **Xuxiang Wu**, a one year PhD student in acoustics at **Nanjing University
 
 My research interests include:
 
-- Parametric Array Loudspeakers (PAL) and time-domain nonlinear acoustics modeling  
+- Parametric Array Loudspeakers (PAL)
+- Time-domain nonlinear acoustics modeling  
 - Acoustic holography, sound field reconstruction, and sound field control  
 - Deep learning methods for spatial audio
 
