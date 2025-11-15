@@ -107,3 +107,9 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Add more space between navigation bar and page content */
+.site-header,
+.masthead {
+  margin-bottom: 1.5rem;   /* 可以改成 2rem / 24px 再大一点 */
+}
