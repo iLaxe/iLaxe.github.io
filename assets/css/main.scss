@@ -108,8 +108,12 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-/* Add more space between navigation bar and page content */
-.site-header,
-.masthead {
-  margin-bottom: 20rem;   /* 可以改成 2rem / 24px 再大一点 */
+/* Force extra spacing between navbar (site-header) and page content */
+.site-header {
+  margin-bottom: 2.5rem !important;
 }
+
+.masthead {
+  margin-bottom: 2.5rem !important;
+}
+
