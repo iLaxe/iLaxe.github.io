@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-excerpt: "Academic homepage of Xuxiang Wu"
+excerpt: 
 author_profile: true
 redirect_from: 
   - /about/
