@@ -60,7 +60,8 @@ Coming soon.
 
 # 📖 Education
 
-- PhD in Acoustics, Nanjing University  
+- *2025.09 – (now)*, PhD in Acoustics, Nanjing University.  
+- *2021.09 – 2025.06*, Bachelor in Acoustics, Nanjing University.
 
 ---
 
