@@ -17,29 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About
-
-I am **Xuxiang Wu**, a PhD student in acoustics at **Nanjing University**.
+I am **Xuxiang Wu**, a one year PhD student in acoustics at **Nanjing University**.
 
 My research interests include:
 
 - Parametric Array Loudspeakers (PAL) and time-domain nonlinear acoustics modeling  
 - Acoustic holography, sound field reconstruction, and sound field control  
 - Deep learning methods for spatial audio
-
-
-If you are interested in my work or potential collaborations, feel free to contact me.
-
-**Email:** xuxiang.wu@smail.nju.edu.cn  
-**GitHub:** [iLaxe](https://github.com/iLaxe)
-
----
-
-# 🔥 News
-
-- New personal website online. More updates on PAL, sound field control, and spatial audio will be added soon.
-
----
 
 # 📝 Publications 
 
@@ -49,13 +33,6 @@ I will list my journal and conference papers here.
 <!-- Example format for later:
 - X. Wu, A. Author, B. Author, "Paper title," *Journal / Conference*, Year.
 -->
-
----
-
-# 🎖 Honors and Awards
-
-Coming soon.
-
 ---
 
 # 📖 Education
@@ -63,14 +40,4 @@ Coming soon.
 - *2025.09 – (now)*, PhD in Acoustics, Nanjing University.  
 - *2021.09 – 2025.06*, Bachelor in Acoustics, Nanjing University.
 
----
 
-# 💬 Invited Talks
-
-Coming soon.
-
----
-
-# 💻 Internships
-
-Coming soon.
