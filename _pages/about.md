@@ -23,17 +23,14 @@ My research interests include:
 
 - Parametric array loudspeakers (PAL)
 - Time-domain nonlinear acoustics modeling  
-- Acoustic holography, sound field reconstruction, and sound field control  
+- Acoustic holography, sound field control and reconstruction  
 - Deep learning methods for spatial audio
 
 # 📝 Publications 
 
-Coming soon.  
+Coming soon. \\
 I will list my journal and conference papers here.
 
-<!-- Example format for later:
-- X. Wu, A. Author, B. Author, "Paper title," *Journal / Conference*, Year.
--->
 ---
 
 # 📖 Education
