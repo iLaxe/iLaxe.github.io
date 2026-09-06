@@ -20,19 +20,19 @@
         document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
     </script>
     <!-- For all browsers -->
-    <link rel="stylesheet" href="./index_files/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <meta http-equiv="cleartype" content="on">
     <!--<base target="_blank">-->
     <!-- <base href="." target="_blank"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./index_files/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./index_files/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./index_files/favicon-16x16.png">
-    <link rel="manifest" href="./index_files/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icons/site.webmanifest">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
     <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./index_files/academicons.css">
+    <link rel="stylesheet" href="./assets/css/academicons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="google-site-verification" content="qCyQsHfraqptc1pXKjq9MZycKgp34-npkiIFYNO-Nbg">
     <style id="fit-vids-style">
@@ -747,7 +747,7 @@
         <div class="sidebar sticky">
             <div itemscope="" itemtype="http://schema.org/Person" class="profile_box">
                 <div class="author__avatar">
-                    <img src="./index_files/android-chrome-512x512.png" class="author__avatar" alt="Xuxiang Wu">
+                    <img src="./assets/icons/android-chrome-512x512.png" class="author__avatar" alt="Xuxiang Wu">
                 </div>
                 <div class="author__content">
                     <h3 class="author__name">Xuxiang Wu</h3>
@@ -796,13 +796,13 @@
                     
                     <div class="paper-box">
                         <div class="paper-box-image">
-                            <div class="badge">IEEE TASLP 2026</div><img src="./index_files/pal_delays.png" alt="sym"
+                            <div class="badge">IEEE TASLP 2026</div><img src="./articles/pal-delays/pal_delays.png" alt="sym"
                                 width="100%">
                         </div>
                         <div class="paper-box-text">
                             <h2
                                 id="A Comparative Analysis of Time-Delay Strategies for Phased-Array Parametric Loudspeakers">
-                                <a href="./index_files/pal_delays.pdf" download>A Comparative Analysis of Time-Delay Strategies for Phased-Array Parametric Loudspeakers</a>
+                                <a href="./articles/pal-delays/pal_delays.pdf" download>A Comparative Analysis of Time-Delay Strategies for Phased-Array Parametric Loudspeakers</a>
                                 <!-- <a href="https://hellojxt.github.io/pal_delays/">A Comparative Analysis of Time-Delay Strategies for Phased-Array Parametric Loudspeakers</a> -->
                             </h2>
                             <p>
@@ -815,9 +815,29 @@
                         </div>
                     </div>
 
+                    <div class="paper-box">
+                        <div class="paper-box-image">
+                            <div class="badge">ICASSP 2027 Submission</div><img src="./articles/pal-kspacedirec/theory.png" alt="sym"
+                                width="100%">
+                        </div>
+                        <div class="paper-box-text">
+                            <h2
+                                id="A K-Space Directivity Solver for Multi-Channel Parametric Array Loudspeakers">
+                                <a href="./articles/pal-kspacedirec/PAL-kspaceDirecSimulator.pdf" download>A K-Space Directivity Solver for Multi-Channel Parametric Array Loudspeakers</a>
+                            </h2>
+                            <p>
+                                <strong>Xuxiang Wu</strong>, Shao-Zhe Li, Mengtong Li, Jia-Xin Zhong, and Jing Lu
+                            </p>
+                            <h4>
+                                Submitted to IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2027
+                            </h4>
+                        
+                        </div>
+                    </div>
+
                     <!-- <div class="paper-box">
                         <div class="paper-box-image">
-                            <div class="badge">SIGGRAPH 2024</div><img src="./index_files/diffsound.jpg" alt="sym"
+                            <div class="badge">SIGGRAPH 2024</div><img src="./articles/diffsound/diffsound.jpg" alt="sym"
                                 width="100%">
                         </div>
                         <div class="paper-box-text">
@@ -847,7 +867,7 @@
                     <div class="paper-box">
                         <div class="paper-box-text" style="padding-left: 0; max-width: 100%;">
                             <h2 id="railcontrol">
-                                <a href="./index_files/RailControl.zip" download>RailControl: MATLAB Code for Rail-Based Acoustic Scanning</a>
+                                <a href="./code/railcontrol/RailControl.zip" download>RailControl: MATLAB Code for Rail-Based Acoustic Scanning</a>
                             </h2>
                             <p>
                                 A MATLAB toolkit for automated rail-based acoustic scanning experiments, including serial motion control, scan-path generation, A* path planning, audio playback/recording, BK spectrum acquisition, progress logging, and real-time visualization.
@@ -860,9 +880,9 @@
             </div>
         </article>
     </div>
-    <script src="./index_files/main.min.js"></script>
+    <script src="./assets/js/main.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async="" src="./index_files/js"></script>
+    <!-- <script async="" src="./vendor/js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -887,3 +907,4 @@
 </body>
 
 </html>
+
