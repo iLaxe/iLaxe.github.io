@@ -706,6 +706,90 @@
             line-height: 1.7;
         }
 
+        .author__urls .ai {
+            width: 1.28571429em;
+            text-align: center;
+        }
+
+        @media (max-width: 57.8124em) {
+            .profile_box {
+                flex-wrap: wrap;
+            }
+
+            .author__urls-wrapper {
+                flex: 1 0 100%;
+                margin: 10px 0 0;
+            }
+
+            .author__urls_sm {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 8px;
+                padding: 0;
+                font-size: 20px;
+            }
+
+            .author__urls_sm > a,
+            .author__urls_sm > span {
+                display: inline-flex;
+                width: 40px;
+                height: 40px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .code-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .code-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 42px;
+            padding: 8px 14px;
+            border: 1px solid #c8dced;
+            border-radius: 8px;
+            background: #edf5fc;
+            color: #245a89;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 150ms ease, border-color 150ms ease;
+        }
+
+        .code-links a:hover {
+            background: #deedf9;
+            border-color: currentColor;
+            text-decoration: none;
+        }
+
+        .code-links #railcontrol {
+            background: #edf6f0;
+            border-color: #c8dfd0;
+            color: #326448;
+        }
+
+        .code-links #railcontrol:hover {
+            background: #deeee3;
+            border-color: currentColor;
+        }
+
+        .code-links .fa {
+            width: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .code-links a:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 4px;
+        }
+
         .author-self {
             text-decoration-line: underline;
             text-decoration-thickness: 1.5px;
@@ -787,6 +871,18 @@
                                 Email
                             </a>
                         </li>
+                        <li>
+                            <a href="https://orcid.org/0009-0008-9466-097X" target="_blank" rel="noopener noreferrer">
+                                <i class="ai ai-orcid ai-fw" aria-hidden="true"></i>
+                                ORCID
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://scholar.google.com/citations?user=qZ6PIPAAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">
+                                <i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>
+                                Google Scholar
+                            </a>
+                        </li>
                     </ul>
 
                     <div class="author__urls_sm">
@@ -795,6 +891,12 @@
                         </span>
                         <a href="mailto:xuxiang.wu@smail.nju.edu.cn" title="Email">
                             <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://orcid.org/0009-0008-9466-097X" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener noreferrer">
+                            <i class="ai ai-orcid" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=qZ6PIPAAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer">
+                            <i class="ai ai-google-scholar" aria-hidden="true"></i>
                         </a>
                     </div>
                     
@@ -921,25 +1023,13 @@
                     </ul>
 
                     <h1 id="code">💻 Code</h1>
-                    <div class="paper-box">
-                        <div class="paper-box-text" style="padding-left: 0; max-width: 100%;">
-                            <h2 id="kspace-directivity-simulator">
-                                <a href="./code/kspace-directivity-simulator/KSpaceDirec.zip" download>KSpaceDirec: A MATLAB Toolbox for PAL Simulation</a>
-                            </h2>
-                            <p>
-                                A self-contained MATLAB implementation of the observable-oriented k-space-shell solver, including block-wise virtual-source construction, xOz-plane reduction, far-field directivity evaluation, PAL array builders, steering utilities, and reproducible examples.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="paper-box">
-                        <div class="paper-box-text" style="padding-left: 0; max-width: 100%;">
-                            <h2 id="railcontrol">
-                                <a href="./code/railcontrol/RailControl.zip" download>RailControl: MATLAB Code for Rail-Based Acoustic Scanning</a>
-                            </h2>
-                            <p>
-                                A MATLAB toolkit for automated rail-based acoustic scanning experiments, including serial motion control, scan-path generation, A* path planning, audio playback/recording, BK spectrum acquisition, progress logging, and real-time visualization.
-                            </p>
-                        </div>
+                    <div class="code-links">
+                        <a id="kspace-directivity-simulator" href="./code/kspace-directivity-simulator/KSpaceDirec.zip" download title="Download KSpaceDirec: MATLAB toolbox for PAL simulation">
+                            <i class="fa fa-line-chart" aria-hidden="true"></i> KSpaceDirec
+                        </a>
+                        <a id="railcontrol" href="./code/railcontrol/RailControl.zip" download title="Download RailControl: MATLAB toolkit for rail-based acoustic scanning">
+                            <i class="fa fa-arrows-h" aria-hidden="true"></i> RailControl
+                        </a>
                     </div>
 
                     
